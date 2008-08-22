@@ -1,0 +1,179 @@
+
+/* common elements */
+
+* {
+  margin:0;
+  padding:0;
+}
+
+a img {
+  border: 0px;
+}
+
+a { color: __extern__; text-decoration: none; }
+a:hover	{ text-decoration: underline; }
+a:active { text-decoration: underline; }
+
+ol, ul {
+  line-height: 1.5em;
+  margin: .5em .5em .5em 2.5em;
+  padding: 0;
+}
+
+ul {
+  list-style-type: square;
+  list-style-image: url(images/bullet.gif);
+}
+
+span.nowrap label {
+  margin-left: 5px;
+}
+
+/* forms */
+
+div#content label.block {
+  display: block;
+  text-align: right;
+  font-weight: bold;
+}
+
+div#content label.simple {
+  display: block;
+  text-align: left;
+  font-weight: normal;
+}
+
+div#content label.block input.edit {
+  width: 50%;
+}
+
+input.button, textarea, button {
+  font-size: 13px;
+  border: 1px solid __border__;
+  background-color: __background_other__;
+  padding: 1px 3px;
+  margin: 2px;
+
+  /* fix IEs long buttons */
+  overflow:visible;
+}
+
+input.button:hover, button.toolbutton:hover {
+	border-color: black;
+	background-color: __highlight__;
+}
+
+input.edit {
+  font-weight: normal;
+  background-color: white;
+  border: 1px solid __border__;
+  margin: 2px;
+  padding: 1px 3px;
+}
+
+input.edit:hover {
+  border-color: black;
+}
+
+/* site elements */
+
+
+img#logo {
+}
+
+div#menu ul {
+/*  position:absolute;
+/*  bottom: 4px;*/
+  margin: 0 0 -8px 0;
+  padding: 4px 0;
+  list-style-type: none;
+}
+
+div#menu li {
+  display: inline;
+  padding: 4px 0px;
+}
+
+div#menu ul li a {
+  font-weight:bold;
+  text-decoration:none;
+  margin: 0px;
+  padding: 3px 8px;
+  color: black;
+  border: 1px solid transparent;
+}
+/*
+div#menu ul li a:hover { 	 
+  color: black;
+  background-color: __highlight__;
+  border-color: black;
+}*/
+
+/* wiki page */
+
+textarea#wiki__text
+{
+  margin-top: 0;
+  padding-right: 1px;
+  width: 695px;
+  background-color: white;
+}
+
+/* pageinfo */
+
+div#pageinfo {
+  padding: 10px 0px 0px 0px;
+  font-size: 85%;
+}
+
+div#pageinfo div#doc {
+  text-align: right;
+}
+
+div#pageinfo div#user {
+  float: left;
+}
+
+div#pageinfo a {
+  color: __text__;
+}
+
+/* footer */
+
+div#footer {
+  color: black;
+  padding: 10px 27px 20px 27px;
+  overflow:visible;
+  height: auto;
+  
+  /* fix ie7 invisibility bug */
+  border: 1px solid transparent;
+}
+
+div#footer div#footer_left {
+  float: left;
+}
+
+div#footer div#footer_center {
+  float: left;
+  text-align: center;
+}
+
+div#footer div#footer_right {  
+  text-align: right;
+}
+
+div#footer input.edit {
+  margin-right: 5px;
+  width: 100px;
+}
+
+div#footer form.button {
+  display: inline;
+}
+
+/* toc */
+
+div.toc {
+  display: none;
+}
