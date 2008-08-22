@@ -32,9 +32,7 @@ if (!defined('DOKU_INC')) die();
 	  <h1><a href="/">muCCC</a></h1>
 	  <h2>chaos computer club muenchen</h2>
     </div>
-	<div id="menu">
 	  <?php include('menu.php'); ?>
-	</div>
 	<div id="content">
 <!-- Inhalt -->
 <!-- BEGIN OF ACTUAL PAGE CONTENTS -->
@@ -62,6 +60,8 @@ if (!defined('DOKU_INC')) die();
                 tpl_actionlink('history'); 
                 echo "]"; 
              }?>
+
+	     &middot; [<?php tpl_actionlink('recent'); ?>]
           </div>   
         </div>   
       </div>     
