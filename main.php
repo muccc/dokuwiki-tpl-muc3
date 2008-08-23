@@ -74,7 +74,8 @@ if (!defined('DOKU_INC')) die();
           <?php tpl_button('subscription')?>
           <?php tpl_button('admin')?>
           <?php tpl_button('profile')?>
-          <?php tpl_button('login')?>
+	  <?php tpl_button('login')?>
+	  <?php tpl_button('index')?>
         </div>
         <div id="footer_right">
           <?php tpl_searchform(); ?>        
