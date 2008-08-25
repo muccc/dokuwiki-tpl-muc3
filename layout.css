@@ -10,9 +10,17 @@ a img {
   border: 0px;
 }
 
-a { color: __extern__; text-decoration: none; }
-a:hover	{ text-decoration: underline; }
-a:active { text-decoration: underline; }
+a {
+	color: __extern__;
+	text-decoration: none;
+}
+a:hover	{
+//	text-decoration: underline;
+	color: __hover__;
+}
+/* a:active {
+	text-decoration: underline;
+} */
 
 ol, ul {
 //  line-height: 1.5em;
