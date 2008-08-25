@@ -3,7 +3,8 @@
 } 
 
 body	{
-	font: .8em "Trebuchet MS", Verdana, Arial, Sans-Serif;  
+//	font: .8em "Trebuchet MS", Verdana, Arial, Sans-Serif;  
+	font: .9em "Trebuchet MS", Verdana, Arial, Sans-Serif;  
 	background-color: #aaa;
 	margin: 8px;
 }
@@ -90,7 +91,7 @@ li	{
 	text-align: left;
 	margin-top: 5px;
 	padding: 10px;
-	font-size: 15px;
+//	font-size: 15px;
 }
 #content h2	{
 	font-size: 15px;

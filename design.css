@@ -2,9 +2,9 @@
 
 /* the document */
 
-div.dokuwiki table {
+/* div.dokuwiki table {
   font-size: 100%;
-}
+} */
 
 div.dokuwiki tr,
 div.dokuwiki td,
@@ -24,7 +24,7 @@ div.dokuwiki pre {
 
 div.dokuwiki p {
   text-align: left;
-  font-size: 13px;
+//  font-size: 13px;
   line-height: 1.4em;
 }
 
@@ -193,7 +193,7 @@ div.dokuwiki a:visited {
 div.dokuwiki a:hover,
 div.dokuwiki a:active {
   color: __extern__;
-  text-decoration: underline;
+//  text-decoration: underline;
 }
 
 div.dokuwiki h1 a,
@@ -328,7 +328,7 @@ div.dokuwiki h3,
 div.dokuwiki h4,
 div.dokuwiki h5 {
     color: __text__;
-    font-size: 100%;
+//    font-size: 100%;
     font-weight: bold;
     margin: 0 0 1em 0;
     padding: 2px 0 0 0;
@@ -337,10 +337,10 @@ div.dokuwiki h5 {
 }
 
 /* special headlines */
-div.dokuwiki h1 {font-size: 200%; margin-left: 0px; }
-div.dokuwiki h2 {font-size: 160%; margin-left: 0px; }
+div.dokuwiki h1 {font-size: 160%; margin-left: 0px; }
+div.dokuwiki h2 {font-size: 140%; margin-left: 0px; }
 div.dokuwiki h3 {font-size: 130%; margin-left: 0px; border-bottom: none; }
-div.dokuwiki h4 {font-size: 100%; margin-left: 0px; border-bottom: none; }
+div.dokuwiki h4 {font-size: 115%; margin-left: 0px; border-bottom: none; }
 div.dokuwiki h5 {font-size: 100%; margin-left: 0px; border-bottom: none; font-weight: normal;}
 
 /* indent different sections */
@@ -377,7 +377,7 @@ div.dokuwiki blockquote {
 }
 
 div.dokuwiki pre {
-  font-size: 100%;
+//  font-size: 100%;
   padding: 0.5em;
   border: 1px dashed __border__;
   color: __text__;
