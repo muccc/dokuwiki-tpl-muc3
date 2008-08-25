@@ -190,7 +190,9 @@ div.dokuwiki a:visited {
   color: __extern__;
   text-decoration: none;
 }
-div.dokuwiki a:hover,
+div.dokuwiki a:hover {
+  color: __hover__;
+}
 div.dokuwiki a:active {
   color: __extern__;
 //  text-decoration: underline;
@@ -238,10 +240,12 @@ div.dokuwiki a.interwiki:visited {
   color: __extern__;
 }
 div.dokuwiki a.urlextern:hover,
-div.dokuwiki a.urlextern:active,
 div.dokuwiki a.windows:hover,
+div.dokuwiki a.interwiki:hover {
+  color: __hover__;
+}
+div.dokuwiki a.urlextern:active,
 div.dokuwiki a.windows:active,
-div.dokuwiki a.interwiki:hover,
 div.dokuwiki a.interwiki:active {
   color: __extern__;
 }
@@ -494,7 +498,9 @@ div.dokuwiki a.toc:visited {
   color: __extern__;
 }
 
-div.dokuwiki a.toc:hover,
+div.dokuwiki a.toc:hover {
+  color: __hover__;
+}
 div.dokuwiki a.toc:active {
   color: __text__;
 }
