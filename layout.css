@@ -173,7 +173,7 @@ div#footer {
 }
 
 div#footer div#footer_left {
-  margin-left: 5px;
+  padding-left: 5px;
   float: left;
 }
 
