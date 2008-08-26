@@ -72,7 +72,7 @@ if (!defined('DOKU_INC')) die();
 
       <div id="footer">
         <div id="footer_left">
-          <?php tpl_button('edit')?>
+	 <?php tpl_button('edit')?>
         </div>
         <div id="footer_center">
 	  <?php tpl_button('recent')?>
