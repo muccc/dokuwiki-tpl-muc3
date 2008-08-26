@@ -28,8 +28,8 @@ if (!defined('DOKU_INC')) die();
 <!-- Ueberschrift -->
   <div id="wrap">
     <div id="header">
-	  <img src="<?php echo DOKU_TPL ?>images/muc3_klein.gif" alt="muCCC logo" id="logo" width="88" height="90" />
-	  <h1><a href="/">muCCC</a></h1>
+	  <a href="//muc.ccc.de/"><img src="<?php echo DOKU_TPL ?>images/muc3_klein.gif" alt="muCCC logo" id="logo" width="88" height="90" /></a>
+	  <h1><a href="/">muCCC - wiki</a></h1>
 	  <h2>chaos computer club muenchen</h2>
     </div>
 	  <?php include('menu.php'); ?>

@@ -22,7 +22,7 @@ a:hover	{
 }
 
 ul	{
-	margin: 20px;
+	margin-left: 20px;
 }
 /* li	{
 	margin-top: 5px;
@@ -83,8 +83,7 @@ ul	{
 	color: #888;
 }
 #menu a:hover	{
-	color: #f40;
-//	color: #f80;
+	color: #f80;
 }
 
 #content	{ 
@@ -94,10 +93,10 @@ ul	{
 	padding: 10px;
 //	font-size: 15px;
 }
-#content h2	{
+/* #content h2	{
 	font-size: 15px;
 	color: #444;
-}
+} */
 
 #footer	{
 	clear: both;
