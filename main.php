@@ -54,9 +54,12 @@ if (!defined('DOKU_INC')) die();
 
         <div id="pageinfo">
           <div id="user"><?php tpl_userinfo()?></div>
-          <div id="doc"><?php tpl_pageinfo(); ?>
-	     &middot; [<?php tpl_button('profile'); ?>]
-	     &middot; [<?php tpl_button('subscription'); ?>]
+	  <div id="doc"><?php tpl_pageinfo(); ?>
+	  <?php
+	     if($INFO['userinfo']) {
+	     	&middot; [<?php tpl_actionlink('profile'); ?>]
+	     	&middot; [<?php tpl_actionlink('subscription'); ?>]
+	     }
           </div>   
         </div>   
       </div>     
