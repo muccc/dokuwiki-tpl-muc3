@@ -55,13 +55,8 @@ if (!defined('DOKU_INC')) die();
         <div id="pageinfo">
           <div id="user"><?php tpl_userinfo()?></div>
           <div id="doc"><?php tpl_pageinfo();
-             if ($INFO['exists']) { 
-                echo " &middot; ["; 
-                tpl_actionlink('history'); 
-                echo "]"; 
-             }?>
-
-	     &middot; [<?php tpl_button('recent'); ?>]
+	     &middot; [<?php tpl_actionlink('profile'); ?>]
+	     &middot; [<?php tpl_actionlink('subscription'); ?>]
           </div>   
         </div>   
       </div>     
@@ -71,10 +66,13 @@ if (!defined('DOKU_INC')) die();
           <?php tpl_button('edit')?>
         </div>
         <div id="footer_center">
-          <?php tpl_button('subscription')?>
+	  <?php tpl_button('recent')?>
+	  <?php
+	        if ($INFO['exists']) { 
+                tpl_button('history'); 
+           }?>
 	  <?php tpl_button('index')?>
           <?php tpl_button('admin')?>
-          <?php tpl_button('profile')?>
 	  <?php tpl_button('login')?>
         </div>
         <div id="footer_right">
