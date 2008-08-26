@@ -61,7 +61,7 @@ if (!defined('DOKU_INC')) die();
                 echo "]"; 
              }?>
 
-	     &middot; [<?php tpl_actionlink('recent'); ?>]
+	     &middot; [<?php tpl_button('recent'); ?>]
           </div>   
         </div>   
       </div>     
