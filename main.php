@@ -58,8 +58,12 @@ if (!defined('DOKU_INC')) die();
 	  <?php tpl_pageinfo();
 	     
 	     if($INFO['userinfo']) {
-	     	echo "&middot; [". tpl_actionlink('profile') ."]";
-	     	echo "&middot; [".tpl_actionlink('subscription') ."]";
+		echo "&middot; [";
+		tpl_actionlink('profile');
+		echo "]";
+		echo "&middot; [";
+		tpl_actionlink('subscription');
+		echo "]";
 	     }
 	  ?>
           </div>   
