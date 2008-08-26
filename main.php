@@ -57,8 +57,8 @@ if (!defined('DOKU_INC')) die();
 	  <div id="doc"><?php tpl_pageinfo(); ?>
 	  <?php
 	     if($INFO['userinfo']) {
-	     	&middot; [<?php tpl_actionlink('profile'); ?>]
-	     	&middot; [<?php tpl_actionlink('subscription'); ?>]
+	     	echo "&middot; [". tpl_actionlink('profile') ."]";
+	     	echo "&middot; [".tpl_actionlink('subscription') ."]";
 	     }
           </div>   
         </div>   
