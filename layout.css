@@ -173,6 +173,7 @@ div#footer {
 }
 
 div#footer div#footer_left {
+  margin-left: 2px;
   float: left;
 }
 
@@ -186,19 +187,10 @@ div#footer div#footer_right {
 }
 
 div#footer input.edit {
-  margin-right: 2px;
-  margin-left: 2px;
+  margin-right: 5px;
   width: 100px;
 }
 
 div#footer form.button {
   display: inline;
 }
-
-/* toc
-
-div.toc {
-  display: none;
-}
-
-*/
