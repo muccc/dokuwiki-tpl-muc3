@@ -173,13 +173,13 @@ div#footer {
 }
 
 div#footer div#footer_left {
-  padding-left: 5px;
   float: left;
 }
 
 div#footer div#footer_center {
   float: left;
   text-align: center;
+  padding-left: 5px;
 }
 
 div#footer div#footer_right {  
