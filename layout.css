@@ -10,6 +10,18 @@ a img {
   border: 0px;
 }
 
+<<<<<<< .mine
+a {
+	color: __extern__;
+	text-decoration: none;
+}
+a:hover	{
+	color: __hover__;
+}
+/* a:active {
+	text-decoration: underline;
+} */
+=======
 a {
 	color: __extern__;
 	text-decoration: none;
@@ -21,6 +33,7 @@ a:hover	{
 /* a:active {
 	text-decoration: underline;
 } */
+>>>>>>> .r14
 
 ol, ul {
 //  line-height: 1.5em;
