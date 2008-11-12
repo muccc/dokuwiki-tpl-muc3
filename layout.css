@@ -204,16 +204,19 @@ div#footer form.button {
   list-style-type:none;
 }
 .plugin_translation ul a {
-  background-color:yellow;
-  border: 1px solid black;
+  background-color: __background_other__;
+  color:yellow;
+  border: 1px solid #aaa;
 }
 .plugin_translation ul span.curid a {
-  background-color:black;
-  border: 1px solid yellow;
+  background-color: __background_other__;
+  color:#f80; 
+  border: 1px solid #aaa;
 }
 
 .plugin_translation div,
 .plugin_translation li,
-.plugin_translation ul { float: left;
+.plugin_translation ul {
+  float: left;
 }
 
