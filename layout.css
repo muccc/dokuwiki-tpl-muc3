@@ -197,3 +197,23 @@ div#footer input.edit {
 div#footer form.button {
   display: inline;
 }
+
+/* translation plugin */
+.plugin_translation ul {
+  list-style-image:none;
+  list-style-type:none;
+}
+.plugin_translation ul a {
+  background-color:yellow;
+  border: 1px solid black;
+}
+.plugin_translation ul span.curid a {
+  background-color:black;
+  border: 1px solid yellow;
+}
+
+.plugin_translation div,
+.plugin_translation li,
+.plugin_translation ul { float: left;
+}
+
