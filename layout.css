@@ -207,11 +207,15 @@ div#footer form.button {
   background-color: __background_other__;
   color:yellow;
   border: 1px solid #aaa;
+	padding: 1px 3px;
+	margin: 2px;
 }
 .plugin_translation ul span.curid a {
   background-color: __background_other__;
   color:#f80; 
   border: 1px solid #aaa;
+	padding: 1px 3px;
+	margin: 2px;
 }
 
 .plugin_translation div,
