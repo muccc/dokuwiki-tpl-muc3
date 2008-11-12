@@ -86,6 +86,7 @@ if (!defined('DOKU_INC')) die();
         </div>
         <div id="footer_right">
           <?php tpl_searchform(); ?>        
+					<?php tpl_translation(); ?>
         </div>        
       </div>
 

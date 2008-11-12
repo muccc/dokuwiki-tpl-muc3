@@ -32,3 +32,9 @@ function tpl_topbar() {
 	print "</div>";
     }
 }
+
+// translation plugin
+function tpl_translation() {
+  $translation = &plugin_load('syntax','translation');
+	echo $translation->_showTranslations();
+}
