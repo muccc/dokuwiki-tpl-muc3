@@ -261,12 +261,16 @@ div.dokuwiki a.mail {
   color: __existing__ !important;
 } */
 
+div.dokuwiki a.wikilink2 {
+	color: #e00909;
+}
 /* not existing wikipage */
-/* div.dokuwiki a.wikilink2 {
+/* div.dokuwiki a.boldwikilink2 {
   color: __missing__ !important;
 } */
 
 /* ------------- Page elements ----------------- */
+
 
 div.dokuwiki div.preview {
   background-color: __background_neu__;
@@ -345,7 +349,7 @@ div.dokuwiki h1 {font-size: 160%; margin-left: 0px; }
 div.dokuwiki h2 {font-size: 140%; margin-left: 0px; }
 div.dokuwiki h3 {font-size: 130%; margin-left: 0px; border-bottom: none; }
 div.dokuwiki h4 {font-size: 115%; margin-left: 0px; border-bottom: none; }
-div.dokuwiki h5 {font-size: 100%; margin-left: 0px; border-bottom: none; font-weight: normal;}
+div.dokuwiki h5 {font-size: 100%; margin-left: 0px; border-bottom: none; font-weight: bold;}
 
 /* indent different sections */
 div.dokuwiki div.level1 {margin-left: 0px;}
