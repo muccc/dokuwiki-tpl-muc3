@@ -356,6 +356,11 @@ div.dokuwiki div.level3 {margin-left: 0px;}
 div.dokuwiki div.level4 {margin-left: 0px;}
 div.dokuwiki div.level5 {margin-left: 0px;}
 
+div.dokuwiki > h1,
+div.dokuwiki > div.toc + h1,
+div.dokuwiki > h2,
+div.dokuwiki > div.toc + h2 {margin-top: .5em;}
+
 /* the list items overriding the ul/ol definition */
 div.dokuwiki .li {
   color: __text__;

@@ -24,6 +24,12 @@ a:hover	{
 ul	{
 	margin-left: 20px;
 }
+
+ul ul, ol ul, ol ol, ul ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 /* li	{
 	margin-top: 5px;
 	margin-bottom: 5px;
