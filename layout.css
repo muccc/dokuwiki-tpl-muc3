@@ -36,7 +36,7 @@ a:hover	{
 
 ol, ul {
   line-height: 1.5em;
-  margin: 0em .5em 0em 2.5em;
+  margin: .5em .5em .5em 2.5em;
   padding: 0;
 }
 
@@ -79,7 +79,6 @@ input.button, textarea, button {
 }
 
 input.button:hover, button.toolbutton:hover {
-//	border-color: black;
 	border-color: __border__;
 	background-color: __highlight__;
 }
