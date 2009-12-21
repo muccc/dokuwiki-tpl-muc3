@@ -59,7 +59,10 @@ if (!defined('DOKU_INC')) die();
 	     
 	     if($INFO['userinfo']) {
 		echo "&middot; [";
-		tpl_actionlink('subscription');
+		tpl_actionlink('subscribe');
+		echo "]";
+		echo "&middot; [";
+		tpl_actionlink('subscribens');
 		echo "]";
 		echo "&middot; [";
 		tpl_actionlink('profile');
