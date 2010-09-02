@@ -68,7 +68,7 @@ div#content label.block input.edit {
 }
 
 input.button, textarea, button {
-  color: __black__;
+  color: __text__;
   font-size: 13px;
   border: 1px solid __border__;
   background-color: __background_other__;
