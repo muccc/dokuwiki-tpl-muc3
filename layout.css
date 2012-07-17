@@ -247,3 +247,10 @@ div#footer form.button {
 .amazon_isbn {
     color: lightgray;
 }
+
+/* editable button depends on table margin fix */
+#content div.editbutton_table {
+    margin-top: -.6em;
+    text-align: inherit;
+    float: none;
+}
