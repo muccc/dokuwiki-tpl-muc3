@@ -37,11 +37,13 @@ if (!defined('DOKU_INC')) die();
 <!-- Inhalt -->
 <!-- BEGIN OF ACTUAL PAGE CONTENTS -->
   <?php html_msgarea()?>
+<!--
       <?php if($conf['breadcrumbs']) {?>
       <div id="breadcrumbs"><?php tpl_breadcrumbs()?></div>
       <?php } elseif ($conf['youarehere']) {?>
       <div id="breadcrumbs"><?php tpl_youarehere() ?></div>
       <?php }?>
+-->
       <?php flush()?>    
 
       <div class="dokuwiki">
@@ -62,10 +64,11 @@ if (!defined('DOKU_INC')) die();
 		tpl_actionlink('subscribe');
 		echo "]";
 		echo "&middot; [";
-		tpl_actionlink('subscribens');
+		tpl_actionlink('profile');
 		echo "]";
 		echo "&middot; [";
-		tpl_actionlink('profile');
+		tpl_actionlink('top');
+		echo "&#160";
 		echo "]";
 	     }
 	  ?>
@@ -76,6 +79,9 @@ if (!defined('DOKU_INC')) die();
       <div id="footer">
         <div id="footer_left">
 	 <?php tpl_button('recent')?>
+	 <?php tpl_button('media')?>
+	  <?php tpl_button('index')?>
+
         </div>
         <div id="footer_center">
 	 <?php tpl_button('edit')?>
@@ -83,9 +89,10 @@ if (!defined('DOKU_INC')) die();
 	        if ($INFO['exists']) { 
                 tpl_button('history'); 
            }?>
-	  <?php tpl_button('index')?>
           <?php tpl_button('admin')?>
 	  <?php tpl_button('login')?>
+
+
         </div>
         <div id="footer_right">
           <?php tpl_searchform(); ?>        
